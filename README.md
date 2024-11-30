@@ -64,28 +64,18 @@ The project is structured to ensure maintainability, reusability, and scalabilit
 
 10. Shareable Budget URL:
 
--URL parameters reflect the selected budget options.
--Sharing the URL allows others to view the exact budget configuration.
- Example:
- http://localhost:4200/home?WebPage=true&CampaingSeo=true&pages=1&lang=2
+- URL parameters reflect the selected budget options.
+- Sharing the URL allows others to view the exact budget configuration.
+  Example:
+  http://localhost:4200/home?WebPage=true&CampaingSeo=true&pages=1&lang=2
 
 ##  Used Technologies
 
--React: Librería para la creación de interfaces de usuario.
--CSS3: Para estilos, maquetación y animaciones.
--Bootstrap (opcional): Para componentes interactivos como popovers.
--JavaScript (ES6): Para la lógica de componentes y navegación.
+- React: Librería para la creación de interfaces de usuario.
+- JavaScript (ES6): Para la lógica de componentes y navegación.
+- CSS3: Para estilos, maquetación y animaciones.
+- Bootstrap (opcional): Para componentes interactivos como popovers.
 
-
-## Folder Structure
-
-src/
-├── components/         # Reusable UI components (e.g., Card, Request, Quotes)
-├── pages/              # Pages for routing (e.g., WelcomeScreen, CalculatorScreen)
-├── data/               # Static data for services
-├── App.jsx             # Main app component
-├── main.jsx            # Entry point for React
-└── styles/             # Global CSS styles
 
 
 ## Setup
@@ -93,7 +83,7 @@ src/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Varos1009/S6.-pressopost.git
+   git clone https://github.com/Varos1009/S6.-Budget-Calculator.git
    cd S6.-pressopost
 
 2. Install dependencies:
