@@ -84,7 +84,7 @@ The project is structured to ensure maintainability, reusability, and scalabilit
 
    ```bash
    git clone https://github.com/Varos1009/S6.-Budget-Calculator.git
-   cd S6.-pressopost
+   cd S6.-Budget-Calculator
 
 2. Install dependencies:
 
