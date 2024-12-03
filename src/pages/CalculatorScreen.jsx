@@ -55,9 +55,9 @@ const CalculatorScreen = () => {
     setSearchName("");
   };
 
-  const handleSortByDate = () => {
+  const handleSortByDate = (isASC) => {
     setQuotes((prevQuotes) =>
-      [...prevQuotes].sort((a, b) => new Date(b.date) - new Date(a.date))
+      [...prevQuotes].sort((a, b) => isASC ? new Date(a.date) - new Date(b.date) : new Date(b.date) - new Date(a.date))
     );
     setSearchName("");
   };
